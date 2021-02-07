@@ -9,60 +9,145 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Page Title -->
-  <title>Home</title>
+  <title>Apple</title>
 
   <link rel="stylesheet" type="text/css" href="assets/css/index.css">
-  
+
+  <link rel="icon" href="images_icons/icons/apple1.png" sizes="10x10" type="image/gif">
+
+  <style>
+  #section4_lastsec{
+    background-image: url("images_icons/Apple_SG_Home/images/tile__cauwwcyyn9hy_medium_2x_edited.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+  }
+
+  .section4_column{
+    flex: 50%;
+    height: 575px;
+    background-color:#fbfbfd;
+    transition: 0.4s;
+  }
+
+  @media screen and (max-width: 992px) {
+    .section4_column{
+      height: 500px;
+      transition: 0.4s;
+    }
+  }
+
+  @media only screen and (max-width: 800px){
+    .section4_column{
+      flex: 100%;
+      height: 570px;
+      transition: 0.4s;
+    }
+  }
+
+  @media only screen and (max-width: 600px){
+    .section4_column{
+      height: 500px;
+      transition: 0.4s;
+    }
+  }
+
+  .section4_row{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 10px;
+    transition: 0.4s;
+  }
+
+  @media only screen and (max-width: 800px){
+    .section4_row{
+      flex-wrap: wrap;
+      transition: 0.4s;
+    }
+  }
+
+  /* .section4_column{
+    float: left;
+    width: 49.2%;
+    height: 575px;
+    background-color:#fbfbfd;
+    transition: 0.4s;
+  }
+
+  @media only screen and (max-width: 1000px){
+    .section4_column{
+      height: 450px;
+      transition: 0.4s;
+    }
+  }
+
+  @media only screen and (max-width: 800px){
+    .section4_column{
+      width: 100%;
+      height: 450px;
+      transition: 0.4s;
+    }
+  }
+
+  .section4_row{
+    margin-bottom: 10px;
+  }
+
+  .section4_row:after{
+    content: "";
+    display: table;
+    clear: both;
+  } */
+  </style>
 </head>
 
 <body style="background-color: white;">
   <header>
-    <!-- <div id="navbar_bkg"></div> -->
     <nav class="navbar" style="background-color: black;">
       <div class="navbar_content">
         <ul class="navbar_items">
           <li class="nav-item">
-            <a href="https://www.apple.com/sg/">
+            <a href="index.html">
               <img src="images_icons/navbar/globalnav_apple_image__cxwwnrj0urau_large.png" class="navbar_image">
             </a>
           </li>
 
           <li class="nav-item" style="top:-17px;">
-            <a class="nav_link" href="#">Mac</a>
+            <a class="nav_link" href="mac.html">Mac</a>
           </li>
 
           <li class="nav-item" style="top:-17px;">
-            <a class="nav_link" href="#">iPad</a>
+            <a class="nav_link" href="404.html">iPad</a>
           </li>
 
           <li class="nav-item" style="top:-17px;">
-            <a class="nav_link" href="#">iPhone</a>
+            <a class="nav_link" href="404.html">iPhone</a>
           </li>
 
           <li class="nav-item" style="top:-17px;">
-            <a class="nav_link" href="#">Watch</a>
+            <a class="nav_link" href="404.html">Watch</a>
           </li>
 
           <li class="nav-item" style="top:-17px;">
-            <a class="nav_link" href="#">TV</a>
+            <a class="nav_link" href="404.html">TV</a>
           </li>
 
           <li class="nav-item" style="top:-17px;">
-            <a class="nav_link" href="#">Music</a>
+            <a class="nav_link" href="404.html">Music</a>
           </li>
 
           <li class="nav-item" style="top:-17px;">
-            <a class="nav_link" href="#">Support</a>
+            <a class="nav_link" href="support.html">Support</a>
           </li>
 
           <li class="nav-item">
-            <a href="#">
+            <a href="404.html">
               <img src="images_icons/navbar/search.png" style="height: 17px;margin:0px auto 13px;">
             </a>
           </li>
 
           <li class="nav-item">
-            <a href="#">
+            <a href="404.html">
               <img src="images_icons/navbar/globalnav_bag_image__bmix8075eg4i_large.png" class="navbar_image">
             </a>
           </li>
@@ -78,7 +163,7 @@
 
 <section id="section1">
   <div id="CNY_apple_logo">
-    <img src="images_icons/Apple_SG _Home/icons/cny-icon-doubleox-202101.jpeg" style="width:72px;">
+    <img src="images_icons/Apple_SG_Home/icons/cny-icon-doubleox-202101.jpeg" style="width:72px;">
   </div>
 
   <p class="section_title" style="padding-top:18px;">Double the wishes in the Year of the Ox.</p>
@@ -89,13 +174,13 @@
 
   <div class="section1_row">
     <div class="section1_column">
-      <img src="images_icons/Apple_SG _Home/images/cny-snowflake-airpods-202101_FMT_WHH.jpeg" width="89%;">
+      <img src="images_icons/Apple_SG_Home/images/cny-snowflake-ipad-202101.png" width="89%;">
     </div>
     <div class="section1_column">
-      <img src="images_icons/Apple_SG _Home/images/cny-snowflake-iphone-202101.jpeg" width="81%;">
+      <img src="images_icons/Apple_SG_Home/images/cny-snowflake-iphone-202101.png" width="81%;">
     </div>
     <div class="section1_column">
-      <img src="images_icons/Apple_SG _Home/images/cny-snowflake-watch-202101_FMT_WHH.jpeg" width="85%;">
+      <img src="images_icons/Apple_SG_Home/images/cny-snowflake-watch-202101_FMT_WHH.png" width="85%;">
     </div>
   </div>
 </section>
@@ -109,7 +194,7 @@
     <p style="font-size:20px;padding-top:15px;">Learn more <img src="images_icons/next_edited.png" style="width:6px;"> &nbsp;&nbsp;&nbsp; Buy <img src="images_icons/next_edited.png" style="width:6px;"></p>
   </a>
 
-  <img src="images_icons/Apple_SG _Home/images/apple_iphone-12_new-design_geo_10132020.jpg.news_app_ed.png" width="50%;">
+  <img src="images_icons/Apple_SG_Home/images/apple_iphone-12_new-design_geo_10132020.jpg.news_app_ed.png" width="50%;">
 </section>
 
 <section id="section3">
@@ -121,37 +206,37 @@
     <p style="font-size:20px;padding-top:15px;color:#2795FB;">Learn more <img src="images_icons/next_edited.png" style="width:6px;"> &nbsp;&nbsp;&nbsp; Buy <img src="images_icons/next_edited.png" style="width:6px;"></p>
   </a>
 
-  <img src="images_icons/Apple_SG _Home/images/iphone_12_pro__f7ri3g4x75m6_medium_2x_edited.jpg" width="80%;" style="margin-top:70px;">
+  <img src="images_icons/Apple_SG_Home/images/iphone_12_pro__f7ri3g4x75m6_medium_2x_edited.jpg" width="80%;" style="margin-top:70px;">
 </section>
 
 <section id="section4">
   <div class="section4_row">
-    <div class="section4_column" style="margin-right:5px;margin-right:5px;">
+    <div class="section4_column" style="margin-left:5px;margin-right:5px;">
       <p style="font-size:40px;font-weight: 500;letter-spacing: -0.5px;line-height: 1;padding-top:60px;">Get the limited-edition <br> AirPods Pro for <br> Chinese New Year.</p>
       <a class="buy_link" href="#">
         <p style="font-size:18px;padding-top:15px;">Buy <img src="images_icons/next.svg" style="width:11px;"></p>
       </a>
-      <img src="images_icons/Apple_SG _Home/images/MJ533_edited.jpeg" width="34%;" style="padding-top:20px;">
+      <img src="images_icons/Apple_SG_Home/images/MJ533_edited.jpeg" width="34%;" style="padding-top:20px;">
     </div>
 
     <div class="section4_column" style="background-color:black;margin-left:5px;margin-right:5px;">
-      <img src="images_icons/Apple_SG _Home/images/logo__dcojfwkzna2q_medium.png" width="18%;" style="padding-top:40px;">
+      <img src="images_icons/Apple_SG_Home/images/logo__dcojfwkzna2q_medium.png" width="18%;" style="padding-top:40px;">
       <p style="font-size:20px;font-weight: normal;color:white;padding-top:10px;">The future of health is on your wrist.</p>
       <a class="buy_link" href="#">
         <p style="font-size:18px;padding-top:15px;color:#2795FB;">Learn more <img src="images_icons/next_edited.png" style="width:6px;"> &nbsp;&nbsp;&nbsp; Buy <img src="images_icons/next_edited.png" style="width:6px;"></p>
       </a>
-      <img src="images_icons/Apple_SG _Home/images/hero__dvsxv8smkkgi_largetall_2x.jpg" width="34%;" style="padding-top:30px;">
+      <img src="images_icons/Apple_SG_Home/images/hero__dvsxv8smkkgi_largetall_2x.jpg" width="34%;" style="padding-top:30px;">
     </div>
   </div>
 
   <div class="section4_row">
-    <div class="column" style="background-color:#f0f0f2;margin-left:5px;margin-right:5px;">
-      <img src="images_icons/Apple_SG _Home/images/logo_tile_valentines_day__e23rylk6u86e_medium_2x.png" width="32%;" style="padding-top:30px;">
+    <div class="section4_column" style="background-color:#f0f0f2;margin-left:5px;margin-right:5px;">
+      <img src="images_icons/Apple_SG_Home/images/logo_tile_valentines_day__e23rylk6u86e_medium_2x.png" width="32%;" style="padding-top:30px;">
       <p style="font-size:40px;font-weight: 500;letter-spacing: -0.5px;line-height: 1;">For lovers of <br> Apple.</p>
       <a class="buy_link" href="#">
         <p style="font-size:18px;padding-top:15px;">Shop gifts <img src="images_icons/next.svg" style="width:11px;"></p>
       </a>
-      <img src="images_icons/Apple_SG _Home/images/tile_valentines_day__fraykk637bam_medium_2x_edited.jpg" width="58%;" style="padding-top:10px;">
+      <img src="images_icons/Apple_SG_Home/images/tile_valentines_day__fraykk637bam_medium_2x_edited.jpg" width="58%;" style="padding-top:10px;">
     </div>
 
     <div class="section4_column" style="margin-left:5px;margin-right:5px;">
@@ -159,13 +244,13 @@
       <a class="buy_link" href="#">
         <p style="font-size:18px;padding-top:15px;">Learn more <img src="images_icons/next.svg" style="width:11px;"> &nbsp;&nbsp;&nbsp; Buy <img src="images_icons/next.svg" style="width:11px;"></p>
       </a>
-      <img src="images_icons/Apple_SG _Home/images/hero__gnfk5g59t0qe_medium_2x.png" width="46%;" style="padding-top:50px;">
+      <img src="images_icons/Apple_SG_Home/images/hero__gnfk5g59t0qe_medium_2x.png" width="46%;" style="padding-top:50px;">
     </div>
   </div>
 
   <div class="section4_row">
     <div class="section4_column" style=";margin-left:5px;margin-right:5px;">
-      <img src="images_icons/Apple_SG _Home/images/logo__dcojfwkzna2q_medium_2x.png" width="19%;" style="padding-top:45px;">
+      <img src="images_icons/Apple_SG_Home/images/logo__dcojfwkzna2q_medium_2x.png" width="19%;" style="padding-top:45px;">
       <p style="font-size:20px;font-weight: 400;padding-top:10px;">Bundle four Apple services. <br> And enjoy more for less.</p>
       <a class="buy_link" href="#">
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ need get and add arrow ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
@@ -175,7 +260,7 @@
     </div>
 
     <div id="section4_lastsec" class="section4_column" style="margin-left:5px;margin-right:5px;">
-      <img src="images_icons/Apple_SG _Home/icons/logo__dcojfwkzna2q_medium_2x.png" width="11%" style="margin-top:55%;">
+      <img src="images_icons/Apple_SG_Home/icons/logo__dcojfwkzna2q_medium_2x.png" width="11%" style="margin-top:55%;">
       <p style="font-family: 'SF Pro Text', 'SF Pro Icons', 'Arial', sans-serif;font-size:20px;padding-top:10px;color:white;line-height:1.2;">Get one year of Apple TV+ free <br> when you buy an Apple device.</p>
       <a class="buy_link" href="#">
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ need adjust/add arrow ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
