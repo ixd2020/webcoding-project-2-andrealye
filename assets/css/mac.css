@@ -232,7 +232,7 @@ body{
   background-color: black;
   color: white;
   position: relative;
-  height: 650px;
+  /* height: 650px; */
 }
 
 @media only screen and (max-width: 800px){
@@ -251,7 +251,7 @@ body{
   transition: 0.4s;
 }
 
-@media only screen and (max-width: 1150px){
+@media only screen and (max-width: 1350px){
   #MacBook_Air_Image{
     width: 600px;
     margin-right: -40px;
@@ -259,7 +259,7 @@ body{
   }
 }
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 1150px){
   #MacBook_Air_Image{
     width: 550px;
     margin-right: -70px;
@@ -267,34 +267,51 @@ body{
   }
 }
 
-@media only screen and (max-width: 800px){
+/* @media only screen and (max-width: 1000px){
   #MacBook_Air_Image{
     width: 100%;
     margin-right: 0px;
     margin-top: -60px;
     transition: 0.4s;
   }
-}
+} */
 
 .sec3_content{
   padding-left: 16%;
   position: absolute;
 }
 
-@media only screen and (max-width: 800px){
+#sec3_macbookair_content{
+  margin-left: 16%;
+  transition: 0.4s;
+}
+
+@media only screen and (max-width: 1000px){
   #sec3_macbookair_content{
-    background-color: pink;
+    display: block;
+    /* background-color: pink; */
     text-align: center;
     padding: 0;
     margin: 0 auto;
-    margin-top:200px;
+    margin-top:-50px;
     transition: 0.4s;
   }
 }
 
 .sec3_new_title{
-  color:#ff630f;font-size:20px;font-weight:500;padding-top:-100px;
+  color:#ff630f;
+  font-size:20px;
+  font-weight:500;
+  /* padding-top:-100px; */
 }
+
+/* @media only screen and (max-width: 1000px){
+  .sec3_new_title{
+    margin-top: 550px;
+    padding:0px;
+    transition: 0.4s;
+  }
+} */
 
 .sec3_title{
   font-size:55px;font-weight: 500;letter-spacing: -0.5px;
@@ -622,6 +639,43 @@ body{
   margin: 0px auto;
 }
 
+#section9{
+  background-color:#FAFAFA;
+  padding: 0px 300px;
+  margin:20px 40px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1300px){
+  #section9{
+    padding: 0px 200px;
+    transition: 0.4s;
+  }
+}
+
+@media only screen and (max-width: 1160px){
+  #section9{
+    padding: 0px 100px;
+    transition: 0.4s;
+  }
+}
+
+@media only screen and (max-width: 1000px){
+  #section9{
+    padding: 0px 50px;
+    margin:20px;
+    transition: 0.4s;
+  }
+}
+
+@media only screen and (max-width: 800px){
+  #section9{
+    padding: 0px;
+    margin: 20px 10px;
+    transition: 0.4s;
+  }
+}
+
 .section9_column{
   float: left;
   flex: 14.28%;
@@ -630,9 +684,27 @@ body{
 }
 
 .section9_row{
-  padding: 0px;
+  padding: 0px 100px;
   display: flex;
   margin: 0px auto;
+}
+
+@media only screen and (max-width: 1000px){
+  .section9_row{
+    padding: 0px;
+  }
+}
+
+@media only screen and (max-width: 800px){
+  .section9_column{
+    flex: 20%;
+    transition: 0.4s;
+  }
+
+  .section9_row{
+    flex-wrap: nowrap;
+    transition: 0.4s;
+  }
 }
 
 .sec10_part1_column{
@@ -683,7 +755,7 @@ body{
 }
 
 .footer{
-  background-color:#f0f0f2; 
+  background-color:#f0f0f2;
   padding: 20px 230px;
 }
 
