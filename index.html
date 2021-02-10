@@ -66,99 +66,105 @@
     }
   }
 
-  /* .section4_column{
-    float: left;
-    width: 49.2%;
-    height: 575px;
-    background-color:#fbfbfd;
-    transition: 0.4s;
-  }
-
-  @media only screen and (max-width: 1000px){
-    .section4_column{
-      height: 450px;
-      transition: 0.4s;
-    }
-  }
-
-  @media only screen and (max-width: 800px){
-    .section4_column{
-      width: 100%;
-      height: 450px;
-      transition: 0.4s;
-    }
-  }
-
-  .section4_row{
-    margin-bottom: 10px;
-  }
-
-  .section4_row:after{
-    content: "";
-    display: table;
-    clear: both;
-  } */
-  </style>
+</style>
 </head>
 
 <body style="background-color: white;">
   <header>
+    <!-- Navigation Bar -->
     <nav class="navbar" style="background-color: black;">
       <div class="navbar_content">
         <ul class="navbar_items">
+          <!-- Navigation Bar - Apple Icon -->
           <li class="nav-item">
             <a href="index.html">
-              <img src="images_icons/navbar/globalnav_apple_image__cxwwnrj0urau_large.png" class="navbar_image">
+              <img src="images_icons/navbar/globalnav_apple_image__cxwwnrj0urau_large.png" class="navbar_image navbar_hide">
             </a>
           </li>
 
+          <!-- Navigation Bar - Mac -->
           <li class="nav-item" style="top:-17px;">
-            <a class="nav_link" href="mac.html">Mac</a>
+            <a class="nav_link navbar_hide" href="mac.html">Mac</a>
           </li>
 
+          <!-- Navigation Bar - iPad -->
           <li class="nav-item" style="top:-17px;">
-            <a class="nav_link" href="404.html">iPad</a>
+            <a class="nav_link navbar_hide" href="404.html">iPad</a>
           </li>
 
+          <!-- Navigation Bar - iPhone -->
           <li class="nav-item" style="top:-17px;">
-            <a class="nav_link" href="404.html">iPhone</a>
+            <a class="nav_link navbar_hide" href="404.html">iPhone</a>
           </li>
 
+          <!-- Navigation Bar - Watch -->
           <li class="nav-item" style="top:-17px;">
-            <a class="nav_link" href="404.html">Watch</a>
+            <a class="nav_link navbar_hide" href="404.html">Watch</a>
           </li>
 
+          <!-- Navigation Bar - TV -->
           <li class="nav-item" style="top:-17px;">
-            <a class="nav_link" href="404.html">TV</a>
+            <a class="nav_link navbar_hide" href="404.html">TV</a>
           </li>
 
+          <!-- Navigation Bar - Music -->
           <li class="nav-item" style="top:-17px;">
-            <a class="nav_link" href="404.html">Music</a>
+            <a class="nav_link navbar_hide" href="404.html">Music</a>
           </li>
 
+          <!-- Navigation Bar - Support -->
           <li class="nav-item" style="top:-17px;">
-            <a class="nav_link" href="support.html">Support</a>
+            <a class="nav_link navbar_hide" href="support.html">Support</a>
           </li>
 
+          <!-- Navigation Bar - Search Icon -->
           <li class="nav-item">
             <a href="404.html">
-              <img src="images_icons/navbar/search.png" style="height: 17px;margin:0px auto 13px;">
+              <img src="images_icons/navbar/search.png" class="navbar_hide" style="height: 17px;margin:0px auto 13px;">
             </a>
           </li>
 
+          <!-- Navigation Bar - Bag Icon -->
           <li class="nav-item">
             <a href="404.html">
-              <img src="images_icons/navbar/globalnav_bag_image__bmix8075eg4i_large.png" class="navbar_image">
+              <img src="images_icons/navbar/globalnav_bag_image__bmix8075eg4i_large.png">
             </a>
           </li>
         </ul>
-      </ul>
+      </div>
+
+      <!-- Navigation Bar: when resized -->
+      <div class="navbar_content1">
+        <div class="navbar_items1">
+          <!-- Navigation Bar - Menu Icon -->
+          <div class="nav-item1" style="float:left;">
+            <a href="404.html">
+              <div id="nav_menu" style="margin-top:17px;"></div>
+              <div id="nav_menu"></div>
+            </a>
+          </div>
+
+          <!-- Navigation Bar - Apple Icon -->
+          <div class="nav-item1">
+            <a href="index.html">
+              <img src="images_icons/navbar/globalnav_apple_image__cxwwnrj0urau_large.png">
+            </a>
+          </div>
+
+          <!-- Navigation Bar - Bag Icon -->
+          <div class="nav-item1" style="float:right;">
+            <a href="404.html">
+              <img src="images_icons/navbar/globalnav_bag_image__bmix8075eg4i_large.png" id="navbar_bag">
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   </nav>
 </header>
 
 <div id="top_content">
-  <p style="padding-top:15px; color: #333333;">Get the limited-edition AirPods Pro for Chinese New Year. While supplies last. <a class="buy_link" href="#">Buy  <img src="images_icons/next_edited.png" style="width:6px;"></a></p>
+  <p style="padding-top:15px; color: #333333;">Get the limited-edition AirPods Pro for Chinese New Year. While supplies last. <a class="buy_link" href="#">Buy</a>  <img src="images_icons/next_edited.png" style="width:6px;"></p>
 </div>
 
 <section id="section1">
@@ -168,9 +174,10 @@
 
   <p class="section_title" style="padding-top:18px;">Double the wishes in the Year of the Ox.</p>
 
-  <a class="buy_link" href="#" style="">
-    <p style="font-size:20px;padding-top:15px;">Shop Chinese New Year gifts <img src="images_icons/next_edited.png" style="width:6px;"></p>
-  </a>
+  <p style="font-size:20px;padding-top:15px;">
+    <a class="buy_link" href="#" style="">Shop Chinese New Year gifts</a> <img src="images_icons/next_edited.png" style="width:6px;">
+  </p>
+
 
   <div class="section1_row">
     <div class="section1_column">
@@ -190,9 +197,9 @@
 
   <p style="font-size:25px;">Blast past fast.</p>
 
-  <a class="buy_link" href="#">
-    <p style="font-size:20px;padding-top:15px;">Learn more <img src="images_icons/next_edited.png" style="width:6px;"> &nbsp;&nbsp;&nbsp; Buy <img src="images_icons/next_edited.png" style="width:6px;"></p>
-  </a>
+  <p style="font-size:20px;padding-top:15px;">
+    <a class="buy_link" href="#">Learn more</a> <img src="images_icons/next_edited.png" style="width:6px;"> <a class="buy_link" href="#">Buy</a> <img src="images_icons/next_edited.png" style="width:6px;">
+  </p>
 
   <img src="images_icons/Apple_SG_Home/images/apple_iphone-12_new-design_geo_10132020.jpg.news_app_ed.png" width="50%;">
 </section>
@@ -202,9 +209,9 @@
 
   <p style="font-size:25px;color:white;">It's a leap year.</p>
 
-  <a class="buy_link" href="#">
-    <p style="font-size:20px;padding-top:15px;color:#2795FB;">Learn more <img src="images_icons/next_edited.png" style="width:6px;"> &nbsp;&nbsp;&nbsp; Buy <img src="images_icons/next_edited.png" style="width:6px;"></p>
-  </a>
+  <p style="font-size:20px;padding-top:15px;">
+    <a class="buy_link" href="#">Learn more</a> <img src="images_icons/next_edited.png" style="width:6px;"> <a class="buy_link" href="#">Buy</a> <img src="images_icons/next_edited.png" style="width:6px;">
+  </p>
 
   <img src="images_icons/Apple_SG_Home/images/iphone_12_pro__f7ri3g4x75m6_medium_2x_edited.jpg" width="80%;" style="margin-top:70px;">
 </section>
@@ -213,18 +220,17 @@
   <div class="section4_row">
     <div class="section4_column" style="margin-left:5px;margin-right:5px;">
       <p style="font-size:40px;font-weight: 500;letter-spacing: -0.5px;line-height: 1;padding-top:60px;">Get the limited-edition <br> AirPods Pro for <br> Chinese New Year.</p>
-      <a class="buy_link" href="#">
-        <p style="font-size:18px;padding-top:15px;">Buy <img src="images_icons/next.svg" style="width:11px;"></p>
-      </a>
+
+      <p style="font-size:18px;padding-top:15px;"><a class="buy_link" href="#">Buy</a> <img src="images_icons/next.svg" style="width:11px;"></p>
       <img src="images_icons/Apple_SG_Home/images/MJ533_edited.jpeg" width="34%;" style="padding-top:20px;">
     </div>
 
     <div class="section4_column" style="background-color:black;margin-left:5px;margin-right:5px;">
       <img src="images_icons/Apple_SG_Home/images/logo__dcojfwkzna2q_medium.png" width="18%;" style="padding-top:40px;">
       <p style="font-size:20px;font-weight: normal;color:white;padding-top:10px;">The future of health is on your wrist.</p>
-      <a class="buy_link" href="#">
-        <p style="font-size:18px;padding-top:15px;color:#2795FB;">Learn more <img src="images_icons/next_edited.png" style="width:6px;"> &nbsp;&nbsp;&nbsp; Buy <img src="images_icons/next_edited.png" style="width:6px;"></p>
-      </a>
+      <p style="font-size:18px;padding-top:15px;">
+        <a class="buy_link" href="#">Learn more</a> <img src="images_icons/next_edited.png" style="width:6px;"> <a class="buy_link" href="#">Buy</a> <img src="images_icons/next_edited.png" style="width:6px;">
+      </p>
       <img src="images_icons/Apple_SG_Home/images/hero__dvsxv8smkkgi_largetall_2x.jpg" width="34%;" style="padding-top:30px;">
     </div>
   </div>
@@ -233,17 +239,18 @@
     <div class="section4_column" style="background-color:#f0f0f2;margin-left:5px;margin-right:5px;">
       <img src="images_icons/Apple_SG_Home/images/logo_tile_valentines_day__e23rylk6u86e_medium_2x.png" width="32%;" style="padding-top:30px;">
       <p style="font-size:40px;font-weight: 500;letter-spacing: -0.5px;line-height: 1;">For lovers of <br> Apple.</p>
-      <a class="buy_link" href="#">
-        <p style="font-size:18px;padding-top:15px;">Shop gifts <img src="images_icons/next.svg" style="width:11px;"></p>
-      </a>
+
+      <p style="font-size:18px;padding-top:15px;">
+        <a class="buy_link" href="#">Shop gifts</a> <img src="images_icons/next_edited.png" style="width:6px;">
+      </p>
       <img src="images_icons/Apple_SG_Home/images/tile_valentines_day__fraykk637bam_medium_2x_edited.jpg" width="58%;" style="padding-top:10px;">
     </div>
 
     <div class="section4_column" style="margin-left:5px;margin-right:5px;">
       <p style="font-size:40px;font-weight: 500;letter-spacing: -0.5px;line-height: 1;padding-top:60px;">Airpods Max</p>
-      <a class="buy_link" href="#">
-        <p style="font-size:18px;padding-top:15px;">Learn more <img src="images_icons/next.svg" style="width:11px;"> &nbsp;&nbsp;&nbsp; Buy <img src="images_icons/next.svg" style="width:11px;"></p>
-      </a>
+      <p style="font-size:18px;padding-top:15px;">
+        <a class="buy_link" href="#">Learn more</a> <img src="images_icons/next_edited.png" style="width:6px;"> <a class="buy_link" href="#">Buy</a> <img src="images_icons/next_edited.png" style="width:6px;">
+      </p>
       <img src="images_icons/Apple_SG_Home/images/hero__gnfk5g59t0qe_medium_2x.png" width="46%;" style="padding-top:50px;">
     </div>
   </div>
@@ -252,10 +259,11 @@
     <div class="section4_column" style=";margin-left:5px;margin-right:5px;">
       <img src="images_icons/Apple_SG_Home/images/logo__dcojfwkzna2q_medium_2x.png" width="19%;" style="padding-top:45px;">
       <p style="font-size:20px;font-weight: 400;padding-top:10px;">Bundle four Apple services. <br> And enjoy more for less.</p>
-      <a class="buy_link" href="#">
-        <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ need get and add arrow ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-        <p style="font-size:18px;padding-top:15px;">Learn more <img src="images_icons/next.svg" style="width:11px;"> &nbsp;&nbsp;&nbsp; Try it free </p>
-      </a>
+
+      <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ need get and add arrow ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+      <p style="font-size:18px;padding-top:15px;">
+        <a class="buy_link" href="#">Learn more</a> <img src="images_icons/next.svg" style="width:11px;"> &nbsp;&nbsp;&nbsp; <a class="buy_link" href="#">Try it free</a>
+      </p>
       <img src="images_icons/icons/bundle__eqmvgz1saumq_medium_2x.jpg" width="49.5%;" style="padding-top:35px;margin-left:50px;">
     </div>
 

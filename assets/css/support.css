@@ -82,6 +82,10 @@ body{
   transition: 0.4s;
 }
 
+.nav-item:hover{
+  opacity: 0.95;
+}
+
 @media only screen and (max-width: 1160px){
   .nav-item{
     margin: 0px 20px;
@@ -92,12 +96,54 @@ body{
 @media only screen and (max-width: 1000px){
   .nav-item{
     margin: 0px 15px;
+    padding: 0px 5px;
     transition: 0.4s;
   }
 }
 
-.nav-item:hover{
+@media only screen and (max-width: 800px){
+  .navbar_items{
+    display: none;
+    transition: 0.4s;
+  }
+}
+
+.navbar_items1{
+  padding: 0px 10px;
+  display: none;
+}
+
+.nav-item1{
+  margin: 0px;
+  padding: 0px 10px;
+  height: 46px;
+  margin-top: 0px;
+  display: inline-block;
+  z-index: 1;
+  position: relative;
+  opacity: 0.8;
+  transition: 0.4s;
+}
+.nav-item1:hover{
   opacity: 0.95;
+}
+
+#nav_menu{
+  width:15px;
+  border: 1px solid white;
+  display: none;
+  margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 800px){
+  .navbar_items1{
+    display: block;
+    transition: 0.4s;
+  }
+
+  #nav_menu{
+    display: block;
+  }
 }
 
 .navbar_image{
